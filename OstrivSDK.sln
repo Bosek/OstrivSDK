@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstrivConverter", ".\OstrivConverter\OstrivConverter.csproj", "{0F626D8A-0E92-47A2-8F70-AE12358C2D6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstrivSDK", ".\OstrivSDK\OstrivSDK.csproj", "{9EDA3643-B4C9-4DD5-BC53-7C8EED89962D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46BE7C3F-6E02-437F-85A2-D6BF930C97DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F626D8A-0E92-47A2-8F70-AE12358C2D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F626D8A-0E92-47A2-8F70-AE12358C2D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F626D8A-0E92-47A2-8F70-AE12358C2D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F626D8A-0E92-47A2-8F70-AE12358C2D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDA3643-B4C9-4DD5-BC53-7C8EED89962D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDA3643-B4C9-4DD5-BC53-7C8EED89962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDA3643-B4C9-4DD5-BC53-7C8EED89962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDA3643-B4C9-4DD5-BC53-7C8EED89962D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F626D8A-0E92-47A2-8F70-AE12358C2D6B} = {46BE7C3F-6E02-437F-85A2-D6BF930C97DD}
+		{9EDA3643-B4C9-4DD5-BC53-7C8EED89962D} = {46BE7C3F-6E02-437F-85A2-D6BF930C97DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CBD8C05-5FD6-4EBC-A8D6-2756B93AA9B8}
+	EndGlobalSection
+EndGlobal
