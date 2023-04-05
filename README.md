@@ -34,7 +34,7 @@ building_infinite_deposit_iron_ore
 ```
 `variant` property of each deposit corresponds to an ingame model. For `building_finite_deposit_stone` you can assign `variant` 0, 1, 2, 3. For anything else it needs to be 0 or the game crashes.
 
-Right now we can use `infinite` deposits only for deposits that are listed as **Unlimited** in map menu. Eg. for Map 1 you can only have `building_infinite_deposit_limestone`, for Map 2 you can only have `building_infinite_deposit_iron_ore`. Any other combinations will crash the game. I am not sure if it's hardcoded in game yet, but it might be. More research pending.
+Right now we can use only deposits that are listed map menu(`_infinite_` for **Unlimited** and `_finite_` for **Limited**). Eg. for Map 1 you can only have `building_infinite_deposit_limestone` and `building_finite_deposit_stone`, for Map 2 you can only have `building_infinite_deposit_iron_ore`, `building_finite_deposit_stone` and `building_finite_deposit_limestone`. Any other combinations will crash the game. I am not sure if it's hardcoded in game yet, but it probably is. More research pending.
 
 ## **OstrivConverter**
 This is a CLI tool that uses SDK to do all above mentioned things without needing to code.  
