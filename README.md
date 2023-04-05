@@ -17,7 +17,7 @@ This file is for maps and contains data on deposits, fishing spots and river flo
 **Map names are hardcoded in game so we cannot add a new map, we can only replace current maps for now.** But I think that maybe if we showed interest, Yevhen would make the system more flexible.
 
 #### **Notable info**
-X, Y coordinates are horizontal, Z is vertical. Playable zone of each map is from **X: -5000 Y: -5000** to **X: 5000 Y: 5000** with **X: 0 Y: 0** in the center. In case of `.forestmap`, `.heightmap` and `.plantsmap`, which are 1024x1024px, playable zone of each map is 512x512px around the image center:  
+X, Y coordinates are horizontal, Z is vertical. Playable zone of each map is from **X: -5000 Y: -5000** to **X: 5000 Y: 5000** with **X: 0 Y: 0** in the center. In case of `_forestmap`, `_heightmap` and `_plantsmap`, which are 1024x1024px, playable zone of each map is 512x512px around the image center:  
 
 ![Map coordinates of Map 1](./map_coordinates.png)
 
