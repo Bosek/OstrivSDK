@@ -6,10 +6,10 @@ namespace OstrivConverter
     [Verb("minimap", HelpText = "Work with .minimap file.")]
     class MinimapOptions
     {
-        [Option('i', SetName = "Mode", HelpText = "Import mode toggle. In this mode src is 1024x1024px .bmp image and dest is .minimap file.")]
+        [Option('i', SetName = "Mode", HelpText = "Import mode toggle. In this mode src is 1024x1024px .bmp, .gif, .jpeg, .png or .tiff image and dest is .minimap file.")]
         public bool Import { get; set; }
 
-        [Option('e', SetName = "Mode", HelpText = "Export mode toggle. In this mode src is .minimap file and dest is 1024x1024px .bmp image.")]
+        [Option('e', SetName = "Mode", HelpText = "Export mode toggle. In this mode src is .minimap file and dest is 1024x1024px .bmp, .gif, .jpeg, .png or .tiff image.")]
         public bool Export { get; set; }
 
         [Option('s', HelpText = "Source file name.", Required = true)]

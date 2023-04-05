@@ -5,7 +5,7 @@
         public string Name;
         public Point3D Position;
         public float Rotation;
-        public int Size;
+        public int Variant;
 
         public Deposit FromBytes(BinaryReader reader, object? arg = null)
         {
@@ -13,7 +13,7 @@
             Name = new string(reader.ReadChars(length));
             Position = new Point3D().FromBytes(reader);
             Rotation = reader.ReadSingle();
-            Size = reader.ReadInt32();
+            Variant = reader.ReadInt32();
 
             return this;
         }
@@ -24,7 +24,7 @@
             writer.Write(Name.ToCharArray());
             Position.ToBytes(writer);
             writer.Write(Rotation);
-            writer.Write(Size);
+            writer.Write(Variant);
         }
     }
 }
